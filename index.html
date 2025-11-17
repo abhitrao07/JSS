@@ -274,7 +274,7 @@
       canvas.height = baseImg.height;
       ctx.drawImage(baseImg, 0, 0);
 
-      const waUrl = `https://www.jio.com/selfcare/interest/sim/?utm_campaign=skycSJA&utm_medium=${encodeURIComponent(partnerIdRaw.toString().trim())}&source=JIO&utm_source=college`;
+      const waUrl = `https://wa.me/917000070000?text=GetJioSIM ${encodeURIComponent(partnerIdRaw.toString().trim())}`;
       const qrCanvas = document.createElement('canvas');
       await QRCode.toCanvas(qrCanvas, waUrl, { width: 400, margin: 1 });
 
